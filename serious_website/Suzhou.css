@@ -1,0 +1,115 @@
+.opening_image {
+	background-image: url("img/zhuozheng_1.jpeg");
+	height: 780px;
+	width: 100%;
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+
+
+	display: flex;
+}
+
+.buttonpanel {
+	position: fixed;
+	background-color: rgb(162, 191, 151);
+	width: 100%;
+	opacity: 95%;
+	z-index: 100;
+}
+
+.top_button {
+	background-color: transparent;
+	border: none;
+	background-repeat: no-repeat;
+	color: white;
+	margin: 20px 20px 0 20px;
+	font-size: 120%;
+	font-family: 'Mea Culpa', cursive;
+	font-weight: 900;
+}
+
+.top_button:hover{
+	color: black;
+	font-size: 125%;
+}
+
+.first_paragraph {
+	background-color: rgb(184, 179, 163);
+	opacity: 95%;
+	margin: 200px 0 200px 400px;
+	font-family: 'pacifico', cursive;
+	font-size: 130%;
+	border-radius: 25px;
+}
+
+.zhuozheng_button {
+	border-radius: 25px;
+	background-color: grey;
+	color: white;
+	height: 50px;
+}
+
+.zhuozheng_button:hover {
+	background-color: rgb(55, 40, 79);
+	font-size: 70%;
+}
+
+/*Second slide*/
+
+.industrial_park {
+	background-color: white;
+	height: 740px;
+	border: 20px solid #D2B48C;
+}
+
+.carousel_container {
+	margin: 120px 0 0 200px;
+	/*height: 270px;*/
+	width: 400px;
+	border: 3px solid black;
+	position: relative;
+	overflow: hidden;
+}
+
+.carousel_slide {
+	height: 270px;
+	width: 400px;
+
+	display: flex;
+}
+
+.slide_img {
+	height: 270px;
+	width: 400px;
+}
+
+#prevBtn {
+	position: absolute;
+	background: transparent;
+	top: 50%;
+	z-index: 50;
+	left: 5%;
+	font-size: 30px;
+	color: white;
+	opacity: 0.7;
+	cursor: pointer;
+	border-radius: 50%;
+}
+
+#nextBtn {
+	position: absolute;
+	background: transparent;
+	top: 50%;
+	z-index: 50;
+	right: 5%;
+	font-size: 30px;
+	color: white;
+	opacity: 0.7;
+	cursor: pointer;
+	border-radius: 50%;
+}
+
+body {
+	background-color: grey;
+}
